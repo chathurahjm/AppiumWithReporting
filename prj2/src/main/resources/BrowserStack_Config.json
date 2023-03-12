@@ -1,0 +1,20 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "hjmcdhanushka1",
+  "access_key": "sbiz6aaXyTVnrLD3ccLC",
+
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "browserstack-build-1",
+    "name": "local_test",
+    "browserstack.debug": true,
+    "browserstack.local": false,
+    "app": "bs://ec666450261aa2d5d3fee4a05cde8500101526fe"
+  },
+  "environments": [
+    {
+      "device": "Samsung Galaxy S22",
+      "os_version": "12.0"
+    }
+  ]
+}

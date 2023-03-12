@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [complaintTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="complaintTest">
+        <methods>
+          <include name="createReport"/>
+          <include name="afterEachMethod"/>
+          <include name="setUpDriver"/>
+          <include name="extendReporting"/>
+          <include name="validateUserCanSuccessfullyLoginTotheSystem"/>
+        </methods>
+      </class> <!-- complaintTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [complaintTest] -->
